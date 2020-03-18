@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:title="Vehicle Schedule"
+        android:id="@+id/ScheduleId"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+    <item
+        android:title="Driver Details"
+        android:id="@+id/DriverDetailsId"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+    <item
+        android:title="About Us"
+        android:id="@+id/aboutUsId"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+    <item
+        android:title="Help"
+        android:id="@+id/helpId"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+
+
+</menu>

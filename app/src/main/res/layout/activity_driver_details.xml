@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home"
+    android:gravity="center"
+    tools:context="com.example.nazmul.myfirstapp.UpdateVehicleActivity">
+
+    <EditText
+        android:id="@+id/DVId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Id"
+        android:textColorHint="#ffff00"
+
+        />
+
+    <EditText
+        android:id="@+id/DnameId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Driver name"
+        android:textColorHint="#ffff00"
+
+        />
+    <EditText
+        android:id="@+id/DContactId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Contact number"
+        android:textColorHint="#ffff00"
+
+        />
+
+    <EditText
+        android:id="@+id/DEmailId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="#ffff00"
+
+        />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/DAddButtonId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:background="@drawable/custom_button"
+        />
+
+    <EditText
+        android:id="@+id/DDVehicleId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Id"
+        android:textColorHint="#ffff00"
+
+        />
+    <Button
+        android:layout_margin="1dp"
+        android:id="@+id/DeleteDriverId"
+        android:layout_width="250dp"
+        android:background="@drawable/custom_button"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        />
+
+
+</LinearLayout>

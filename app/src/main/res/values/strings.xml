@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Vehicle Tracking</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_driver_map">Map</string>
+
+    <string name="aboutUs">
+        
+        Developer: Mohammad Nasir Uddin\n
+        Dept. of ICE\n
+        Noakhali Science and Technology University\n
+        Email: nasir.uddin42222@gmail.com\n
+
+    
+    </string>
+    <string name="help">
+        
+        1.If you are a driver then select Driver button and follow the steps:\n
+         Driver button-->Select Vehicle Id\n
+        -->Hold the activity while moving\n
+        2.If you are a user then select User button and follow the steps:\n
+            a)For tracking vehicle then select track button and then:\n
+            Vehicle Track-->Select Vehicle Id\n
+            -->See Map-->Distance and Time\n
+            b)For showing vehicle schedule then select Schedule button\n
+            c)For showing driver details then select driver details button\n
+         3.If you are a admin then select Admin button and follow the steps:\n
+           a)If You are registered then login and update information\n
+           b)If You are not registered then click signUp.
+        
+    
+    </string>
+
+
+</resources>

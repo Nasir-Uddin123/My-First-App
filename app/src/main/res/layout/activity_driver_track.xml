@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/home"
+    tools:context="com.example.nazmul.myfirstapp.DriverTrackActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="USER LOCATION"
+        android:textColor="#1aff00"
+        android:textAlignment="center"
+        android:textSize="15sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/ULid"
+        android:textColor="#1aff00"
+        android:textAlignment="center"
+        android:textSize="15sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="DRIVER LOCATION"
+        android:textColor="#1aff00"
+        android:textAlignment="center"
+        android:textSize="15sp"
+
+        />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+       android:id="@+id/DTtextId"
+       android:textColor="#1aff00"
+       android:textAlignment="center"
+       android:textSize="15sp"
+
+       />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SEE MAP"
+        android:textSize="20sp"
+        android:textColor="#0015ff"
+        android:id="@+id/BtDTid"
+        android:background="@drawable/custom_button"/>
+
+</LinearLayout>

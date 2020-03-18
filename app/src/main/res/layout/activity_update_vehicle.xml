@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/home"
+    tools:context="com.example.nazmul.myfirstapp.UpdateVehicleActivity">
+
+    <EditText
+        android:id="@+id/VehicleNameId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Id"
+        android:textColorHint="#ffff00"
+
+        />
+
+    <EditText
+        android:id="@+id/VehicleId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Starting Location"
+        android:textColorHint="#ffff00"
+
+        />
+    <EditText
+        android:id="@+id/VTerminalId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Ending Location"
+        android:textColorHint="#ffff00"
+
+        />
+    <EditText
+        android:id="@+id/StartTimeId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Start Time"
+        android:textColorHint="#ffff00"
+
+        />
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/AddButtonId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textColor="#0011ff"
+        android:background="@drawable/custom_button"
+        />
+
+    <EditText
+        android:id="@+id/DVehicleId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Id"
+        android:textColorHint="#ffff00"
+
+        />
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/DeleteButtonId"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="#0011ff"
+        android:background="@drawable/custom_button"
+        />
+
+
+</LinearLayout>

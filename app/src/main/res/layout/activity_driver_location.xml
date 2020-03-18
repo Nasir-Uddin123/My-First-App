@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    tools:context="com.example.nazmul.myfirstapp.DriverLocationActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#00ff00"
+        android:text="HOLD THIS ACTIVITY"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#0609ed"
+        android:background="@drawable/edit_text_border"
+        android:id="@+id/tv1"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@drawable/edit_text_border"
+        android:textColor="#0f07f2"
+        android:layout_margin="30dp"
+        android:id="@+id/tv2"/>
+
+
+
+
+
+
+
+</LinearLayout>

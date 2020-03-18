@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehical id:01"
+        android:gravity="center"
+        android:textColor="#ff00e1"
+        android:id="@+id/NameTextViewId"
+
+
+
+        />
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Starting Location:cumilla"
+        android:id="@+id/IdTextViewId"
+        android:gravity="center"
+        android:textColor="#ff00e1"
+
+
+
+
+        />
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ending Location:maijdee"
+        android:id="@+id/TerminalTextViewId"
+        android:gravity="center"
+        android:textColor="#ff00e1"
+
+
+
+
+        />
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="time:8.00 am"
+        android:id="@+id/TimeTextViewId"
+        android:gravity="center"
+        android:textColor="#ff00e1"
+
+
+
+
+        />
+
+</LinearLayout>
